@@ -1,0 +1,45 @@
+:root{
+    --purple:purple;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: var(--purple);
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.container{
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--purple);
+    font-size: 150px;
+}
+#gameboard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+button:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
